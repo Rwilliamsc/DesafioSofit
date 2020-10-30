@@ -20,7 +20,7 @@ Explicação:
 
 Dadas as seguintes entradas:
 
-###prices
+### prices
 [{
  "date": "11/01/2017",
  "value": 4.96
@@ -29,7 +29,7 @@ Dadas as seguintes entradas:
  "value": 3.44
 }]	
 
-###supplies
+### supplies
 [{
  "date": "11/01/2017",
  "value": 149.47
@@ -38,7 +38,7 @@ Dadas as seguintes entradas:
  "value": 108.89
 }]	
 
-###spents
+### spents
 [{
  "date": "11/01/2017",
  "value": 155.124
