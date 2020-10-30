@@ -23,7 +23,7 @@ export default app => {
 
   app.get('/gerararquivos', async (req, res) => {
     const sofit = new DesafioSofitFile(app)
-    await sofit.gerarAquivos()
+    await sofit.gerarArquivos()
 
     res.status(200).json({ error: false, msg: 'Arquivos Gerados com sucesso!' })
   })
