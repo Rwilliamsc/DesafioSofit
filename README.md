@@ -104,3 +104,20 @@ Você pode ver sua colocação no ranking geral acessando /rank ou o seu progres
 Boa sorte aventureiro! Estaremos esperando você do outro lado! 💪 😆
 
 Feito com ❤ pela equipe da Sofit Software.
+
+# Resolução
+Para a resolução foi criado uma API que consome da API da Sofit e inicializa um banco de dados feito em SQLite.
+A API disponibiliza 3 recursos são eles:
+```
+http://localhost:4000/inicializar
+```
+Este recurso inicia busca os dados na API da Sofit e alimenta do banco de dados
+````
+http://localhost:4000/validar
+````
+Este recurso valida o resultado na API da Sofit
+
+````
+http://localhost:4000/gerararquivos
+````
+Este recurso ao invés de alimentar o banco de dados ele gerar arquivos JSON com o resultado obtido.
