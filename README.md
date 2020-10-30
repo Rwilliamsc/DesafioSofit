@@ -117,8 +117,24 @@ Este recurso inicia busca os dados na API da Sofit e alimenta do banco de dados
 http://localhost:4000/validar
 ````
 Este recurso valida o resultado na API da Sofit
-
 ````
 http://localhost:4000/gerararquivos
 ````
 Este recurso ao invés de alimentar o banco de dados ele gerar arquivos JSON com o resultado obtido.
+
+### Execução
+Para melhor execução do desafio execute:
+```
+npm install
+```
+
+Após as instalações das dependências execute:
+```
+http://localhost:4000/inicializar
+```
+Este recurso irá iniciar o banco e após isso já é possível fazer a validação.
+````
+http://localhost:4000/validar
+````
+
+
