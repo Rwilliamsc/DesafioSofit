@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 
 export default async app => {
-  // importa e carrega as rotas
+  /** importa e carrega as rotas */
   const files = await fs.readdirSync(path.join(__dirname, './'))
   files.forEach(fileName => {
     if (fileName !== 'RouterManager.js') {

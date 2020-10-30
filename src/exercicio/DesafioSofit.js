@@ -108,11 +108,11 @@ export default class DesafioSofit extends Controller {
   /** Calcula resultado do Saldo */
   calcularResultadoCalendario (calendario) {
     calendario.forEach((el, idx) => {
-      if (el.vlrAbastecimento) el.litrosAbastecimento = parseFloat(el.vlrAbastecimento.toFixed(2)) / el.precoCb
-      if (el['km/dia']) el.consumo = parseFloat(el['km/dia'].toFixed(2)) / parseFloat(el['km/l'].toFixed(2))
+      if (el.vlrAbastecimento) el.litrosAbastecimento = el.vlrAbastecimento / el.precoCb
+      if (el['km/dia']) el.consumo = parseFloat((el['km/dia'] / el['km/l']).toFixed(2))
 
-      let calcularSaldo = parseFloat(calendario[idx === 0 ? 0 : idx - 1].saldo.toFixed(2)) + parseFloat(el.litrosAbastecimento.toFixed(2))
-      calcularSaldo = parseFloat(calcularSaldo.toFixed(2)) - parseFloat(el.consumo.toFixed(2))
+      let calcularSaldo = parseFloat((calendario[idx === 0 ? 0 : idx - 1].saldo + el.litrosAbastecimento).toFixed(2))
+      calcularSaldo = calcularSaldo - el.consumo
       el.saldo = parseFloat(calcularSaldo.toFixed(2))
     })
   }
