@@ -107,7 +107,8 @@ Feito com ❤ pela equipe da Sofit Software.
 
 # Resolução
 Para a resolução foi criado uma API que consome da API da Sofit e inicializa um banco de dados feito em SQLite.
-A API disponibiliza 3 recursos são eles:
+
+Esta API disponibiliza 3 recursos, são eles:
 ```
 http://localhost:4000/inicializar
 ```
