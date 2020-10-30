@@ -21,31 +21,46 @@ Explicação:
 Dadas as seguintes entradas:
 
 ### prices
-[{
- "date": "11/01/2017",
- "value": 4.96
-},{
- "date": "12/01/2017",
- "value": 3.44
-}]	
+```
+[
+   {
+    "date": "11/01/2017",
+    "value": 4.96
+   },
+   {
+    "date": "12/01/2017",
+    "value": 3.44
+   }
+]
+```
 
 ### supplies
-[{
- "date": "11/01/2017",
- "value": 149.47
-},{
- "date": "13/01/2017",
- "value": 108.89
-}]	
+```
+[
+   {
+    "date": "11/01/2017",
+    "value": 149.47
+   },
+   {
+    "date": "13/01/2017",
+    "value": 108.89
+   }
+]	
+```
 
 ### spents
-[{
- "date": "11/01/2017",
- "value": 155.124
-},{
- "date": "14/01/2017",
- "value": 383.448
-}]
+```
+[
+   {
+    "date": "11/01/2017",
+    "value": 155.124
+   },
+   {
+    "date": "14/01/2017",
+    "value": 383.448
+   }
+]
+```
 Para cada abastecimento, você deverá descobrir quantos litros foram adicionados com base no valor vigente do combustível na data do abastecimento.
 Exemplo: no dia 11/01/2017, o valor do combustível era R$ 4,96 o litro. O valor total do abastecimento foi de R$ 149,47. Ou seja, foram abastecidos 30.13 litros.
 
