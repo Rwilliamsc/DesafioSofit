@@ -18,15 +18,15 @@ export default class DesafioSofitFile extends DesafioSofit {
     const suppliesFile = JSON.stringify(supplies)
     const spentsFile = JSON.stringify(spents)
 
-    await fs.writeFile(path.join(__dirname, './prices.json'), pricesFile, function (err, result) {
+    await fs.writeFile(path.join(__dirname, './prices.json'), pricesFile, (err) => {
       if (err) console.log('error', err)
     })
 
-    await fs.writeFile(path.join(__dirname, './supplies.json'), suppliesFile, function (err, result) {
+    await fs.writeFile(path.join(__dirname, './supplies.json'), suppliesFile, (err) => {
       if (err) console.log('error', err)
     })
 
-    await fs.writeFile(path.join(__dirname, './spents.json'), spentsFile, function (err, result) {
+    await fs.writeFile(path.join(__dirname, './spents.json'), spentsFile, (err) => {
       if (err) console.log('error', err)
     })
   }
