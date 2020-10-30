@@ -21,7 +21,7 @@ export default app => {
     res.status(200).json(response)
   })
 
-  app.get('/geraquivos', async (req, res) => {
+  app.get('/geraarquivos', async (req, res) => {
     const sofit = new DesafioSofitFile(app)
     await sofit.gerarAquivos()
 
