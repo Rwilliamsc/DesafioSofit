@@ -5,7 +5,7 @@ Desafio realizado para a empresa Sofit
 ## Desafio
 
 Sua jornada inicia aqui aventureiro. E aqui estão as instruções:
-Seu identificador único é 5f997281c6a3840014e38249. Ele será usado em todo o desafio que se seguirá.
+Seu identificador único é xxxxxxxxxxxxxxxxxxxx. Ele será usado em todo o desafio que se seguirá.
 
 Seu objetivo é: Calcular o saldo do tanque de combustível de um veículo levando em consideração os abastecimentos e viagens para cada dia de um período. Ou seja, você terá que descobrir quanto combustível havia no tanque do veículo em cada dia.
 
