@@ -182,6 +182,6 @@ http://localhost:4000/validararquivo
 Este recurso irá validar o exercicio e retornando um resultado de 0 a 1 e o histórico dos resultados.
 
 #### Observações
-** Os arquivos são gerados dentro da pasta files;
-** Pela API está sendo levantada atraves do nodemon ao criar um aquivo a API faz o reload automático.
-** Cuidado que ao gerar arquivos a API fará o reload e o banco será apagado, caso você o tenha inicializado. Se quiser utilizar os dois, primeiro gere os arquivos e em seguida inicialize o banco de dados.
+* Os arquivos são gerados dentro da pasta files;
+* Pela API está sendo levantada atraves do nodemon ao criar um aquivo a API faz o reload automático.
+* Cuidado que ao gerar arquivos a API fará o reload e o banco será apagado, caso você o tenha inicializado. Se quiser utilizar os dois, primeiro gere os arquivos e em seguida inicialize o banco de dados.
