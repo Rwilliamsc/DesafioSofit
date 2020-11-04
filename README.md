@@ -160,7 +160,7 @@ http://localhost:4000/validar
 Este recurso irá validar o exercicio e retornando um resultado de 0 a 1 e o histórico dos resultados.
 
 #### Observações
-** Por um modelo de exemplo por padrão está configurado para toda vez que a aplicação for levantada o banco ser apagado, desta forma sempre que levantar a aplicação será necessário executar o recurso de inicializar.
+* Por um modelo de exemplo por padrão está configurado para toda vez que a aplicação for levantada o banco ser apagado, desta forma sempre que levantar a aplicação será necessário executar o recurso de inicializar.
 
 ### Para utilização por arquivos
 
